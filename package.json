@@ -1,0 +1,26 @@
+{
+  "name": "requestparser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayjariwala/RequestHeader.git"
+  },
+  "author": "Jay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jayjariwala/RequestHeader/issues"
+  },
+  "homepage": "https://github.com/jayjariwala/RequestHeader#readme",
+  "dependencies": {
+    "npm": "^3.10.8"
+  },
+  "devDependencies": {
+    "express": "^4.14.0"
+  }
+}

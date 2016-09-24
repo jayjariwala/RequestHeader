@@ -1,4 +1,4 @@
-// npm install --prefix npm
+//npm install <module_name> --save-dev
 
 var express=require('express');
 var app=express();
@@ -15,12 +15,9 @@ var ip=req.connection.remoteAddress;
 var agent=req.headers['user-agent'];
 var lang=req.headers['accept-language'];
 var myobj ={
-
   ipaddress:ip,
   language:lang,
     os:agent
-
-
 }
 
 res.end(JSON.stringify(myobj));
@@ -28,5 +25,5 @@ res.end(JSON.stringify(myobj));
 
 })
 
-
-app.listen(8082);
+var port= Number (process.env.PORT || 8085);
+app.listen(port);
