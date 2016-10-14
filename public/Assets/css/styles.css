@@ -1,0 +1,27 @@
+body{
+  margin-top:30px;
+  background-color:#7accc8;
+font-family: 'Ubuntu', sans-serif;
+}
+
+.well
+{
+  background-color: #15304e;
+  border:none;
+  color:white;
+  opacity: 0.9;
+}
+.btn
+{
+  background-color: white;
+  color:#15304e;
+}
+.form
+{
+  color:white
+}
+.footer
+{
+  margin-top:60px;
+  color:#15304e;
+}
